@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+background-color: rgb(244, 234, 230);
+padding: 0 100px 0 100px;
+}
+
+h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size:96px;
+        font-weight:900;
+        color: rgb(66, 151, 160);
+}
+
+h2{
+        font-family:'Montserrat', sans-serif;
+        font-size:56px;
+        font-weight:900;
+}
+
+p{
+        font-family:'Montserrat', sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+}
+
+h2.Simpson_title:hover{
+    color:rgb(254, 217, 15);
+}
+
+h2.Rick_title:hover{
+    color:rgb(182, 225, 242);
+}
+
+h2.Jake_title:hover{
+    color: rgb(251, 185, 34);
+}
+
+.Simpson_quotes, .Rick_quotes, .Jake_quotes {
+    border-radius: 10px;
+    box-shadow: -6px -6px 16px #FFF8F5, 6px 6px 16px #E9DDD8;
+}
+nav{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    font-family: 'Montserrat', sans-serif;
+    color:   #E57F84;
+    font-size: 36px;
+    font-weight: 900;
+    display: inline;
+    text-decoration: none;
+}
+
+li{
+    text-decoration:none;
+    list-style-type: none;
+
+}
+
+ul {
+    display:flex;
+    padding-left: 0px;
+
+}
+
+.links-list a {
+    display:inline-block;
+    text-align:center;
+    border: 1px solid;
+    border-color:#E57F84;
+    margin:10px;
+    text-decoration: none;
+    width: 350px;
+    color:#E57F84;
+    padding: 1em 2em;
+}
+
+.links-list a:hover{
+    color:white;
+    background-color:#E57F84;
+}
